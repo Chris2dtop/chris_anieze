@@ -1,0 +1,153 @@
+body{
+  color: #40514e;
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+.top-container{
+  background-color: #9fe6a0;
+  position: relative;
+  padding: 100px;
+/* Recall, Browsers adds default styles, like margins to page bodies, blocks,
+texts etc. So remember to over-ride these if you don't need them */
+}
+h1{
+  margin: 50px auto 0 auto;
+  font-family: 'Sacramento', cursive;
+  font-size: 5.625rem;
+  color: #f55c47;
+
+}
+
+h2{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  font-weight: normal;
+  color: #f55c47
+
+
+}
+h3{
+  font-family: 'Montserrat', sans-serif;
+  color: #4aa96c;
+  margin: auto;
+
+
+}
+.top-cloud{
+  position: absolute;
+  right: 200px;
+  top: 50px;
+
+}
+.bottom-cloud{
+  position: absolute;
+  left: 300px;
+  top: 400px;
+}
+
+.middle-container{
+  margin: 50px auto;
+
+}
+.profile{
+  width: 50%;
+  margin: auto;
+}
+
+a{
+  color: #4aa96c;
+  font-family: 'Montserrat', sans-serif;
+  target-new: tab;
+}
+a:hover{
+  color: #fffbdf;
+}
+
+
+p{
+  line-height: 2;
+}
+
+.skill-row{
+  width: 50%;
+  margin: 100px auto;
+  text-align: left;
+  line-height: 2;
+
+
+}
+.webdesign {
+  width: 50%;
+  float: left;
+  margin-bottom: 50px;
+}
+.agbada{
+  width: 75%;
+}
+.atadie{
+  width: 50%;
+  float: right;
+  margin-top: 100px;
+
+}
+.clear-float{
+  clear: right;
+}
+hr{
+  width: 5%;
+  border: dotted #eaf6f6 6px;
+  border-bottom: none;
+  margin: 100px auto;
+
+}
+
+.btn {
+   -webkit-border-radius: 7px;
+   -moz-border-radius: 7px;
+   border-radius: 7px;
+   height: 6px;
+   line-height: 6px;
+   color: #000000;
+   font-family: 'Montserrat', sans-serif;
+   width: 199px;
+   font-size: 26px;
+   font-weight: 500;
+   padding: 18px;
+   background-color: #9FE6A0;
+   border: solid #9FE6A0 8px;
+   text-decoration: none;
+   display: inline-block;
+   cursor: pointer;
+   text-align: center;
+   margin:  20px auto 100px;
+}
+
+.btn:hover {
+   background: #227D23;
+   border: solid #21E124 1px;
+   -webkit-border-radius: 20px;
+   -moz-border-radius: 20px;
+   border-radius: 20px;
+   text-decoration: none;
+}
+
+.bottom-container{
+  background-color: #9fe6a0;
+  position: relative;
+  padding: 50px;
+
+
+}
+.footer-link{
+  margin: 20px;
+  text-decoration: none;
+  font-family: 'Montserrat', sans-serif;
+
+
+}
+.copyright{
+  font-size: 0.75rem;
+  padding: 20px 0;
+
+}
